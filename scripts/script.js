@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log("hello console!");
   addExampleBlogEntry();
   setStandardCookie();
-  displayUserProfile();
+  
+ 
 
   // Add event listener for the button
   const btnClicky = document.getElementById("btnClicky");
@@ -63,3 +64,4 @@ function setStandardCookie() {
     }
   }
 }
+
