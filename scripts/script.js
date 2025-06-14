@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     addExampleBlogEntry();
     setStandardCookie();
     
-  
-    // Add event listener for the button
+  //Button Function
+    
     const btnClicky = document.getElementById("btnClicky");
     btnClicky.addEventListener("click", () => {
       document.getElementById("blogEntry").textContent = 
-        "Why did the pizza maker go broke? Because he just couldn't make enough dough!";
+        "Have an amazing day!!";
     });
   });
   
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   
-  // These two functions can remain empty or be defined later
+  // Cookie function that I got from w3s
   function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
@@ -63,3 +63,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   }
+
